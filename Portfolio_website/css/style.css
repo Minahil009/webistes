@@ -893,4 +893,11 @@ bout .about-content .right .text,
         font-size: 23px;
         line-height: 38px;
     }
+    .home .home-content .text-2 {
+        font-size: 35px;
+    }
+    .home .home-content .text-3 {
+        font-size: 13px;
+        margin: 5px 0;
+    }
 }
