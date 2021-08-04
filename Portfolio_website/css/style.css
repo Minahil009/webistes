@@ -120,17 +120,19 @@ html {
 
 .home {
     display: flex;
-    background: url(/images/banner.jpg) no-repeat center;
+    width: 100%;
+    background: #000000;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 40%;
     color: #fff;
-    min-height: 500px;
+    padding: 0%;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .home .max-width {
     margin: auto 0 auto 40px;
+    width: 60%;
 }
 
 .home .home-content .text-1 {
@@ -171,6 +173,16 @@ html {
 
 }
 
+.home .right-img{
+    height: 100%;
+    width: 40%;
+}
+
+.home .right-img img{
+    height: 100%;
+    width: 100%;
+}
+
 /* all similar content styling code */
 section {
     padding: 100px 0;
@@ -202,7 +214,7 @@ section .title {
 section .title::before {
     content: "";
     position: absolute;
-    width: 180px;
+    width: 200px;
     height: 3px;
     background: #111;
     bottom: 0px;
@@ -360,6 +372,10 @@ section .title::after {
     transition: all .3s ease-in-out;
 }
 
+#more {
+    display: none;
+}
+
 .skills .skills-content .left a:hover {
     color: crimson;
     background: none;
@@ -399,28 +415,37 @@ section .title::after {
 }
 
 .skills .skills-content .right .html::before {
-    width: 90%;   
+    width: 85%;   
 }
 
 .skills .skills-content .right .css::before {
-    width: 80%;   
+    width: 70%;   
 }
 
-.skills .skills-content .right .js::before {
-    width: 55%;   
+.skills .skills-content .right .xml::before {
+    width: 85%;   
 }
 
-.skills .skills-content .right .php::before {
+.skills .skills-content .right .java::before {
     width: 60%;   
 }
 
 .skills .skills-content .right .mysql::before {
-    width: 75%;   
+    width: 70%;   
 }
+
+.skills .skills-content .right .bootstrap::before {
+    width: 72%;   
+}
+
+.skills .skills-content .right .js::before {
+    width: 50%;   
+}
+
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "From where I seek";
 }
 
 .teams .carousel .card {
@@ -429,6 +454,10 @@ section .title::after {
     padding: 25px 35px;
     text-align: center;
     transition: all  .3s ease-in-out;
+}
+
+.teams .carousel a{
+    color: white;
 }
 
 .teams .carousel .card:hover {
@@ -497,7 +526,7 @@ section .title::after {
 }
 
 .contact .contact-content .column {
-    width: calc(50% -30px);
+    width: 50%;
 
 }
 
@@ -513,6 +542,7 @@ section .title::after {
 }
 .contact .contact-content .left p {
     text-align: justify;
+    padding-right: 10px;
 }
 
 .contact .contact-content .row {
