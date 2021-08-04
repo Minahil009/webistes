@@ -855,6 +855,9 @@ footer span a:hover {
         font-size: 16px;
         margin: 5px 0;
     }
+    .logo a{
+        font-size: 20px;
+    }
 }
 
 @media (max-width:530px){
@@ -867,6 +870,9 @@ footer span a:hover {
     }
     .right-img{
         margin-top: 40px;
+    }
+    .logo a{
+        font-size: 20px;
     }
 }
 
@@ -902,5 +908,24 @@ bout .about-content .right .text,
     }
     .right-img{
         margin-top: 60px;
+    }
+    .logo a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:420){
+    .home .home-content .text-2 {
+        font-size: 30px;
+    }
+    .home .home-content .text-3 {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+    .right-img{
+        margin-top: 60px;
+    }
+    .logo a{
+        font-size: 20px;
     }
 }
