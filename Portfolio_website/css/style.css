@@ -900,4 +900,7 @@ bout .about-content .right .text,
         font-size: 13px;
         margin: 5px 0;
     }
+    .right-img{
+        margin-top: 60px;
+    }
 }
